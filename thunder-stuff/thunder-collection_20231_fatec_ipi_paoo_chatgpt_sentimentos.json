@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "20231_fatec_ipi_paoo_chatgpt_sentimentos",
+    "dateExported": "2023-05-17T21:43:50.325Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "af8612cd-ab76-4a19-a6b1-7b32a55a45e8",
+            "colId": "9084476f-c3de-49c5-879b-d5d799153d06",
+            "containerId": "",
+            "name": "Obter sentimento de frase",
+            "url": "http://localhost:8000/sentimentos",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-05-17T21:13:09.039Z",
+            "modified": "2023-05-17T21:17:03.169Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"prompt\": \"Estou muito, muito, muuuuuuito felizzzzzz!!!\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
